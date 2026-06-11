@@ -1,0 +1,224 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ВСПОМИНАЕМ ГЛАВЫ 3 и 4! — Тоби Фокс</title>
+  <style>
+    @font-face { font-family: '8bitOperatorPlus-Bold'; src: url('../../assets/fonts/8bitOperatorPlus-Bold.ttf') format('truetype'); }
+    @font-face { font-family: '8bitOperatorPlus-Regular'; src: url('../../assets/fonts/8bitOperatorPlus-Regular.ttf') format('truetype'); }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #000; color: #fff; font-family: '8bitOperatorPlus-Regular', monospace; min-height: 100vh; line-height: 1.6; }
+    /* NAV - точная копия с главной */
+    .site-nav { width: 100%; height: 48px; background: #342DB5; position: relative; overflow: visible; }
+    .nav-inner { width: 100%; height: 48px; max-width: 672px; margin: 0 auto; padding: 0 140px 0 8px; display: flex; align-items: center; }
+    .nav-menu { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 48px; list-style: none; font-family: '8bitOperatorPlus-Bold', monospace; text-transform: uppercase; gap: 0; }
+    .nav-menu li { display: block; }
+    .nav-menu a { color: #fff; text-decoration: none; font-size: 18px; text-shadow: 2px 2px 0 #000; padding: 0 8px; display: block; line-height: 48px; }
+    .nav-menu a:hover { opacity: 0.8; }
+    #regions { position: absolute; top: 12px; right: 12px; display: flex; gap: 8px; list-style: none; }
+    #regions li { display: block; }
+    #regions img { display: block; width: 36px; height: 24px; object-fit: cover; }
+    @media (max-width: 640px) { .nav-menu a { font-size: 12px; padding: 0 4px; } .nav-inner { padding-right: 110px; } }
+    /* CONTENT */
+    .container { max-width: 700px; margin: 0 auto; padding: 60px 20px 120px; }
+    p { font-size: 1rem; margin-bottom: 20px; }
+    h3 { font-family: '8bitOperatorPlus-Bold', monospace; color: #F9FF10; font-size: 1.25rem; margin: 50px 0 20px; }
+    .caption { text-align: center; color: #999; font-size: 0.85rem; margin-top: -10px; margin-bottom: 30px; font-style: italic; }
+    .img-full { display: block; max-width: 100%; height: auto; margin: 30px auto; cursor: pointer; }
+    .img-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 30px 0; }
+    .img-row img { max-width: calc(50% - 5px); height: auto; cursor: pointer; }
+    .container ul { list-style: none; padding-left: 0; margin: 20px 0 30px; }
+    .container ul li { margin-bottom: 8px; padding-left: 20px; position: relative; }
+    .container ul li::before { content: '•'; position: absolute; left: 0; color: #F9FF10; }
+    .quote { border-left: 3px solid #F9FF10; padding-left: 15px; margin: 15px 0 25px; color: #bbb; font-style: italic; }
+    .team-member { margin-bottom: 25px; }
+    .team-member strong { color: #F9FF10; }
+    .credits { text-align: center; margin-top: 80px; color: #666; font-size: 0.85rem; }
+    @media (max-width: 600px) { .nav-menu { gap: 10px; padding-right: 120px; } .nav-menu a { font-size: 12px; } .img-row img { max-width: 100%; } }
+  </style>
+</head>
+<body>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <ul class="nav-menu">
+      <li><a href="../../index.html">ГЛАВНАЯ</a></li>
+      <li><a href="https://tobyfox.bandcamp.com/" target="_blank">САУНДТРЕК</a></li>
+      <li><a href="https://www.fangamer.com/collections/deltarune" target="_blank">МЕРЧ</a></li>
+      <li><a href="../../team/index.html">КОМАНДА</a></li>
+    </ul>
+    <ul id="regions">
+      <li><a href="/eng/interviews/chapter3-chapter4/index.html"><img alt="US" src="../../assets/images/flag-us.png"></a></li>
+      <li><a href="/jp/interviews/chapter3-chapter4/index.html"><img alt="JP" src="../../assets/images/flag-jp.png"></a></li>
+      <li><a href="/ru/interviews/chapter3-chapter4/index.html"><img alt="RU" src="../../assets/images/flag-ru.png"></a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+
+    <img src="images/image22.png" class="img-full" alt="">
+    <img src="images/image5.png" class="img-full" alt="">
+    <img src="images/image4.png" class="img-full" alt="">
+    <p class="caption">Концепт-арт от Gigi DG</p>
+
+    <p>Глава 3…</p>
+    <p>Как и в случае с другими главами, первые идеи по этой главе у меня возникли примерно в 2016-м. Основная концепция звучала так: «Отойдём от привычной формулы и устроим крутую игру-настолку в духе Mario Party! И добавим в неё телевизионщика в духе Меттатона!» Мне хорошо запомнилась игра Ghost Trick с её необычным использованием 3D-графики, и я хотел сделать 3D-персонажа в похожем стиле. Примерно тогда же я купил себе Kinect и начал баловаться с захватом движения. Тогда я задумался, что это можно совместить с программой MikuMikuDance, чтобы сделать танцующего 3D-чудика-телика, похожего на персонажа TV Dinnah из игры Little King's Story.</p>
+    <p>Музыку для «Телемира» я написал в 2015-м. За основу взял файл-проект трека битвы с Меттатоном. Ближе к релизу я добавил туда тему из «Релакс-магаза» (Hip Shop) / «Релакс-зоны» (Green Room).</p>
+    <p>Вообще, в 2018-м я начал делать ещё один, совершенно другой концепт для Телемира. В него я добавил больше мотивов из 3-й главы… но друзья отреагировали типа: «М-м-м… ну да… нормально…» — ну и… я понял… понятно… меняем обратно…</p>
+    <p>(Примечание: песня незаконченная, так что не воспринимайте всерьёз)</p>
+
+    <div style="text-align:center;margin:30px auto;">
+      <div class="dog-player" style="position:relative;display:inline-block;">
+        <img src="../../../assets/images/dog-piano.png" class="dog-idle" alt="Dog at piano" style="display:inline-block;image-rendering:pixelated;width:160px;">
+        <img src="../../../assets/images/dog-piano-playing-1.png" class="dog-play1" alt="" style="display:none;image-rendering:pixelated;width:160px;">
+        <img src="../../../assets/images/dog-piano-playing-2.png" class="dog-play2" alt="" style="display:none;image-rendering:pixelated;width:160px;">
+      </div>
+    </div>
+    <p style="text-align:center; color: #F9FF10;">♪ TV Land (незаконченная)</p>
+    <audio class="dog-audio" controls preload="metadata" style="display:block;width:100%;max-width:400px;margin:10px auto 30px;"><source src="audio/tvland_wip.mp3" type="audio/mpeg"></audio>
+
+    <p>Тенну я впервые нарисовал в 2017-м. До этого у него было имя «мистер Телик».</p>
+
+    <div class="img-row"><img src="images/image27.png" alt=""><img src="images/image12.png" alt=""></div>
+    <p class="caption">Концепт-арты от Тоби</p>
+
+    <p>Изначально я попросил Kanotynes сделать его сразу в 3D. Файлы с того времени, вероятно, уже не сохранились.</p>
+    <p>Позже появился концепт Тенны от Gigi с разных ракурсов, который послужил референсом для 3D-модели от PixelatedCrown.</p>
+
+    <div class="img-row"><img src="images/image7.png" alt=""><img src="images/image19.png" alt=""></div>
+    <p class="caption">Концепт-арты от Gigi DG</p>
+
+    <p>Графические надписи были составлены дизайнершей Одри Уэйнер и санимированы Everdraed — другом со времён UNDERTALE. Концепция «персонажа, который разговаривает ворд-артом», была навеяна персонажем П. Т. Бриджпортом из комикса Pogo.</p>
+
+    <div class="img-row"><img src="images/image23.png" alt=""><img src="images/image29.png" alt=""></div>
+    <p class="caption">Концепт-арты от Gigi DG</p>
+
+    <p>На графику потребовалось какое-то время, но это не было серьёзным испытанием… Если говорить про серьёзные испытания, то я бы упомянул сам геймплей.</p>
+
+    <img src="images/image21.png" class="img-full" alt="">
+    <p class="caption">Концепт-арты от Gigi DG</p>
+
+    <p>Я перепробовал множество идей по поводу игровых ПОЛЕЙ Тенны. Сначала я хотел сделать что-то вроде игровых досок из Mario Party или базы Блэка из Gunstar Heroes… но потом я понял, что из-за этого не только игра просядет, но и пропадёт ощущение приключения. После этого мы сделали карту в стиле Super Mario Bros. 3 с кучей мини-карт в стиле Зельды… но потом я решил, что лучше просто всё объединить в одну большую карту.</p>
+    <p>Также нам нужно было создать мини-игры. Я ужасно недооценил, сколько сил и внимания потребуется для их реализации. Вроде бы получилось весело, но сомневаюсь, что я бы так с ними разошёлся, если бы знал, насколько долго и трудно их будет создавать.</p>
+    <p>Глава делалась из кучи разрозненных частей (мини-игр, игровых полей, сюжетных сцен). Мы их все делали отдельно, из-за чего темп игры был до самого конца непонятен. Когда мы собрали всё воедино, то поняли, что у нас проблемы с темпом.</p>
+
+    <p>Вот изначальный план игры до начала разработки:</p>
+    <ul><li>Поле 1 (пустыня)</li><li>Кулинарная игра</li><li>Поле 2 (остров)</li><li>Ритм-игра</li><li>Поле 3 (город)</li><li>Сьюзилла и ковбойские скачки</li><li>Поле 4 (Тенна контролирует игру)</li><li>Телемир</li></ul>
+
+    <p>В тот момент я думал, что игровые поля будут проходиться намного быстрее. По количеству контента выделялось бы только третье поле с мини-играми в двух разных половинах города. После прохождения всех игр вам бы открывалась Телебашня, где случилась бы некоторая последовательность событий и вы бы в итоге попали на четвёртое игровое поле.</p>
+    <p>(Изначально в планах не было S-комнаты.)</p>
+
+    <p>По завершении большей части кода у нас вышло следующее:</p>
+    <ul><li>Поле 1 [З*льда]</li><li>Кулинарная игра</li><li>Релакс-зона 1</li><li>Комната с S-доступом 1</li><li>Поле 2 [З*льда]</li><li>Ритм-игра</li><li>Релакс-зона 2</li><li>Комната с S-доступом 2</li><li>Поле 3 [З*льда, специально укороченная]</li><li>Благодаря нашей уловке Тенна вынужден остановить поле 3</li><li>Релакс-зона 3</li><li>Комната с S-доступом 3</li><li>Закулисье</li><li>Поле 3, часть 2</li><li>Сьюзилла</li><li>Поле 4</li><li>Телемир</li></ul>
+
+    <p>У нас было готово целое третье поле! Его мы старались не растягивать — геймплей получался и так слишком далёким от привычного «дельтаруновского».</p>
+
+    <div class="img-row"><img src="images/image28.png" alt=""><img src="images/image11.png" alt=""></div>
+    <div class="img-row"><img src="images/image10.png" alt=""><img src="images/image26.png" alt=""></div>
+
+    <p>По этой же причине в обе «половины» этого поля мы добавили более привычную часть — зону из деревянных коридоров закулисья, которая была сильно завязана на скрытном перемещении. Изначально битва с Каартом Правелом проходила здесь.</p>
+
+    <div class="img-row"><img src="images/image18.png" alt=""><img src="images/image25.png" alt=""></div>
+    <div class="img-row"><img src="images/image8.png" alt=""><img src="images/image2.png" alt=""></div>
+
+    <p>После победы над ним вы получали контроллер Эльнины. Затем вы могли сделать потоп из слёз, чтобы получить электронный пропуск и пропустить оставшееся поле…</p>
+
+    <img src="images/image15.png" class="img-full" alt="">
+
+    <p>…Хоть мы и пытались с помощью закулисья сделать геймплей разнообразнее… но в итоге игра проседала ещё больше. Наблюдая за прохождением друзей, я видел, что они начинали уставать уже к концу второго поля. Поэтому мы поняли, что эту часть надо вырезать!</p>
+
+    <p>Вот что вышло в финальной версии игры:</p>
+    <ul><li>Поле 1 [З*льда]</li><li>Кулинарная игра</li><li>Релакс-зона 1</li><li>Комната с S-доступом 1</li><li>Поле 2 [З*льда]</li><li>Ритм-игра</li><li>Релакс-зона 2</li><li>Комната с S-доступом 2</li><li>Головоломки с телевизорами</li><li>Поле 4</li><li>Телемир (с переплетением закулисья и скрытного перемещения)</li><li>Комната с S-доступом 3</li></ul>
+
+    <p>В итоге третье игровое поле было вырезано. Остатки от него встречаются лишь в S-комнате. (Хотя ведь так даже лучше?) Игра со Сьюзиллой стала опциональной, а действительно хорошие куски были помещены в Телемир.</p>
+    <p>Некоторые считают, что «больше контента» обязательно значит «лучше»… но, если рассматривать всю игру со всеми её главами как единый опыт, не хочется, чтобы какая-то одна глава тормозила его или ухудшала.</p>
+    <p>Особенно (как я и предполагал) в случае главы с большой долей неоднозначных решений. Я готовился к тому, что даже если кто-то останется без ума от главы 3, то 50% людей могут её раскритиковать. Но, видимо, большинству она понравилась, так что я выдыхаю спокойно.</p>
+    <p>«Главное, что хоть кому-то нравится!»</p>
+
+    <img src="images/image14.png" class="img-full" alt="">
+    <p>Главу 4 делать было намного проще!!</p>
+
+    <div class="img-row"><img src="images/image3.png" alt=""><img src="images/image20.png" alt=""></div>
+    <div class="img-row"><img src="images/image31.png" alt=""><img src="images/image30.png" alt=""></div>
+    <img src="images/image24.png" class="img-full" alt="">
+    <p class="caption">Концепт-арты от Gigi DG</p>
+
+    <p>Вместе с тем — у нас всё же было несколько трудностей.</p>
+    <p>Первоначально механика карабканья по стенам состояла из обычного перемещения и… графики карабканья по стенам. На практике это выглядело примитивно, поэтому я самостоятельно запрограммировал для этого отдельную систему. Это один из редких случаев, когда я программировал сам, поэтому я вправе это выделить!</p>
+    <p>Ещё одно изменение коснулось планировки «Святилища тьмы». Изначально я хотел сделать огромное нелинейное подземелье со множеством пересекающихся путей. Что-то в духе Зельды. Однако организовать друг за другом события линейного сюжета на нелинейной карте было сложно... Из-за этого роль Старика ощущалась совсем блёклой. Так что структуру карты пришлось сделать линейной, прям как и всё остальное (ха).</p>
+    <p>Что доставило больше всего хлопот… так это дом Ноэль. Здесь мы знакомили игрока с новой механикой, и мы не хотели потратить её впустую… Сначала я думал сделать хитроумную последовательность действий. Например, если запустить печеньку в ванную при помощи «пусковой перекусочной установки», то Азгор проголодается и сядет на диван между Сьюзи и Ноэль…</p>
+    <p>Задумка не увенчалась большим успехом, поэтому мы попробовали добавить игрушечный поезд, который катался бы по всему дому, и на основе этого мы пытались придумать различные головоломки.</p>
+    <p>Шло настолько туго, что я даже спросил у своего друга Эндрю Хасси, нет ли у него каких-нибудь идей.</p>
+
+    <div class="quote">
+      <p>Вкину одну вещь, может звучать [изменено] тупо, но сначала просто выскажу, а дальше посмотрим.</p>
+      <p>Что, если в центре стола будет не Снупи, ловящий печеньки, а огромный бюст Макалея Калкина? Типа всем известный крик:</p>
+    </div>
+
+    <img src="images/image6.png" class="img-full" alt="">
+
+    <div class="quote">
+      <p>Не обязательно Калкин. Кто угодно из персонажей, кто укладывается в сеттинг. Допустим, Папирус.</p>
+      <p>Следующее отличие: изначально у бюста нет рук ни с одной из сторон. Это отдельные части, которые валяются где-то в доме. Нам нужно их найти. Иначе будет происходить [изменено] и бюст всё время будет сваливаться и ломать всё в доме, поэтому его надо подпереть с руками с обеих сторон.</p>
+      <p><strong style="color:#F9FF10">НО ПОЧЕМУ БЮСТ БУДЕТ ВСЁ ВРЕМЯ СВАЛИВАТЬСЯ?</strong></p>
+      <p>Это ключевой момент, который должен повторяться из раза в раз и выглядеть естественно, иначе будет полная лажа. Ответ на самом деле [изменено] очевиден: в доме есть Азгор, который моет душевую кабину (чтобы это увидеть, надо отодвинуть занавеску). Но пол очень скользкий, поэтому Азгор постоянно шлёпается на пол, сотрясая своей жопой весь дом.</p>
+      <p><strong style="color:#F9FF10">ЧТО ПРОИСХОДИТ, КОГДА БЮСТ ПАДАЕТ</strong></p>
+      <p>В этот момент он начинает кататься туда-сюда, как неуправляемый шар для боулинга, и ломать элементы головоломки с печеньками. Сначала катится вправо, пока ты не нашёл правую руку и не поставил её на место.</p>
+    </div>
+
+    <p>В конце концов, я понял, что лучше всего сконцентрироваться на сюжете, и мы ещё раз переделали всё с нуля. То, что вышло в итоге, мне очень понравилось.</p>
+    <p>Похоже, эта глава зашла практически всем!</p>
+
+    <div class="img-row"><img src="images/image1.png" alt=""><img src="images/image9.png" alt=""></div>
+    <img src="images/image13.png" class="img-full" alt="">
+    <p class="caption">Концепт-арты от Тоби</p>
+
+    <p>(Кстати, «Молот правосудия» — ещё одна песня, которую я начал ещё в 2016 году… Финальная версия мне нравится, но из-за того что оригинальный набросок с пианино был сделан 7 лет назад, именно он хранится в моей памяти.)</p>
+
+    <div style="text-align:center;margin:30px auto;">
+      <div class="dog-player" style="position:relative;display:inline-block;">
+        <img src="../../../assets/images/dog-piano.png" class="dog-idle" alt="Dog at piano" style="display:inline-block;image-rendering:pixelated;width:160px;">
+        <img src="../../../assets/images/dog-piano-playing-1.png" class="dog-play1" alt="" style="display:none;image-rendering:pixelated;width:160px;">
+        <img src="../../../assets/images/dog-piano-playing-2.png" class="dog-play2" alt="" style="display:none;image-rendering:pixelated;width:160px;">
+      </div>
+    </div>
+    <p style="text-align:center; color: #F9FF10;">♪ «Молот правосудия» (незаконченная)</p>
+    <audio class="dog-audio" controls preload="metadata" style="display:block;width:100%;max-width:400px;margin:10px auto 30px;"><source src="audio/ch4_extra_boss_piano_sketch.mp3" type="audio/mpeg"></audio>
+
+    <p>Мне кажется, что внутриигровых титров недостаточно, поэтому хочу вам представить основных участников команды.</p>
+
+    <h3>Присоединившиеся с «Главы 2»</h3>
+    <div class="team-member"><p><strong>Сара:</strong> запрограммировала большинство кат-сцен в 3-й и 4-й главах, занималась внедрением локализации, выпускала патчи и собирала игру для каждой платформы, а также помогала с тестированием и организацией. Также была вынуждена трижды переделывать сцену в доме Ноэль. Иногда рисует комиксы на бумаге и выращивает гидропонный сад из переработанного мусора. Вырастила авокадо в спамтоновском ведёрке из-под попкорна.</p></div>
+    <div class="quote"><p>«каждый раз, когда я работала над сценой с тарелкой закусок в главе 4, мне хотелось сырный крекер»</p></div>
+    <div class="team-member"><p><strong>Фред:</strong> запрограммировал игровые поля в главе 3 и большинство карт в главах 3 и 4. Судя по всему, очень любит тако, потому что сообщение об этом чуть не попало в игру. Создал игру LOVE.</p></div>
+    <div class="team-member"><p><strong>Джин:</strong> запрограммировал поведение боссов и врагов, а также создал все ДЕЙСТВИЯ. Сделал все атаки Каарта/Ланино/Эльнины. Работал над игрой под названием Death's Gambit.</p></div>
+    <div class="team-member"><p><strong>Taxi:</strong> объединение элементов ритм-игры и других визуально сложных моментов, например когда главный герой падает на легенду или внутрь титана вместе со Сьюзи. Помощь с атаками (звёздная атака Рыцаря, атака с разрубанием рамки, атаки паноры). Из других проектов — игра Moment to Midnight.</p></div>
+    <div class="team-member"><p><strong>Темми:</strong> тэм. Нарисовала практически всё. Также на какое-то время сошла с ума по выпечке.</p></div>
+    <div class="team-member"><p><strong>Тоби:</strong> сделал кое-что.</p></div>
+
+    <h3>Присоединившиеся с «Главы 3»</h3>
+    <div class="team-member"><p><strong>Алекс:</strong> запрограммировал разные виды атак и мини-игру со Сьюзиллой. Сделал все атаки титана, финальные атаки Рыцаря и крутящиеся режущие удары.</p></div>
+    <div class="team-member"><p><strong>PureQuestion:</strong> запрограммировал множество атак тыквенного персонажа и большинство атак у обычных врагов. Вместе с Алексом сделали игру Star of Providence…</p></div>
+
+    <h3>Присоединившиеся с «Главы 4»</h3>
+    <div class="team-member"><p><strong>Enjl:</strong> занимался башней титана и несколькими картами в главе 4, также отвечал за весь эксклюзивный контент на Nintendo Switch 2 и Плюи. Теперь основной программист карт в главе 5.</p></div>
+    <div class="quote"><p>«Больше всего в разработке 4-й главы мне понравилось держать по два кота одновременно. Вот бы так в жизни».</p></div>
+    <div class="team-member"><p><strong>Джуст:</strong> занимался тайлсетами и деталями для визуальных и фоновых штук в главах 4 и 5!</p></div>
+    <div class="team-member"><p><strong>SaraJS:</strong> занималась разнообразными визуальными эффектами и трудными вещами по части программирования. Помогла со светом, отрисовкой волн и пророчеств в главе 4. Сейчас занимается кат-сценами для главы 5.</p></div>
+    <div class="team-member"><p><strong>Энди:</strong> создал трёх Майклов и мини-игры «Жанглёр» и «Баттат». Сейчас работает над тем, о чём сам не имеет ни малейшего понятия. Сделал игру Knuckle Sandwich.</p></div>
+    <div class="quote"><p>«Мне пришлось переместить своё рабочее место в другую комнату, потому что я слишком громко орал в микрофон».</p></div>
+    <div class="team-member"><p><strong>Роберт:</strong> продюсер, сильно фанатеет по японским дядькам и по истории. Обычно не участвует в разработке напрямую, но занимается организацией команды, установкой заданий и публикацией. Вполне вероятно, является лягушкой.</p></div>
+
+    <h3>Гости</h3>
+    <div class="team-member"><p><strong>Онди:</strong> в качестве гостя помог с кулинарной мини-игрой. Также помог в важных частях главы 5. Создал игру Tres-Bashers (и другие!).</p></div>
+    <div class="team-member"><p><strong>Джеймс:</strong> в качестве гостя помог с ковбойской игрой. Ещё сделал ДЕЙСТВИЕ, где все крутятся и возникает вихрь.</p></div>
+    <div class="team-member"><p><strong>?????:</strong> занимается атаками врагов для главы 5!</p></div>
+
+    <div class="credits"><p><a href="https://t.me/darkgodteam" target="_blank" style="color: #666;">Перевод выполнен DarkgoD Team</a></p></div>
+
+  </div>
+<script src="../../assets/js/site-nav.js"></script>
+<script src="../../assets/js/image-zoom.js"></script>
+<script src="../../assets/js/dog-piano.js"></script>
+</body>
+</html>

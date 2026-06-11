@@ -1,0 +1,22 @@
+# Dev tools (editor, apply_translation, etc.)
+tools/
+
+# Hidden files/folders (but keep .gitignore and .github)
+.*
+!.gitignore
+!.github
+
+# Temp files
+temp_*
+*.tmp
+test_output.html
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+*.bak
+*~
+
+# VSCode
+.vscode/

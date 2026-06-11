@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team — Coming Soon</title>
+  <link rel="stylesheet" href="../_bridgetown/static/index.IWDZ4TEV.css">
+  <link rel="stylesheet" href="../assets/css/main_en.css">
+  <style>
+    @font-face { font-family: '8bitOperatorPlus-Bold'; src: url('../assets/fonts/8bitOperatorPlus-Bold.ttf') format('truetype'); }
+    body { margin: 0; min-height: 100vh; background: #000; color: #fff; }
+    .site-nav a, .site-nav .font-8bit a, .site-nav>div>ul:first-child { font-family: '8bitOperatorPlus-Bold', monospace !important; }
+    #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
+    #regions img { display: block; width: 36px; height: 24px; object-fit: cover; }
+    .wip { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 48px); padding: 40px 20px; }
+    .wip-gif { max-width: 400px; max-height: 400px; image-rendering: pixelated; margin-bottom: 40px; }
+    .wip h1 { color: #F9FF10; font-family: '8bitOperatorPlus-Bold', monospace; font-size: 2.5rem; text-align: center; }
+  </style>
+</head>
+<body>
+<nav class="site-nav w-full z-40 bg-nav-blue">
+  <div class="relative w-full">
+    <ul class="flex items-center justify-between w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[132px] md:pr-[132px] pl-2 md:pl-0 font-8bit uppercase">
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="../index.html" >HOME</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://tobyfox.bandcamp.com/" target="_blank">SOUNDTRACK</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://www.fangamer.com/collections/deltarune" target="_blank">MERCH</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="../team/index.html" >TEAM</a></li>
+    </ul>
+    <ul id="regions">
+      <li><a href="/eng/team/index.html"><img alt="US" src="../assets/images/flag-us.png"></a></li>
+      <li><a href="/jp/team/index.html"><img alt="JP" src="../assets/images/flag-jp.png"></a></li>
+      <li><a href="/ru/team/index.html"><img alt="RU" src="../assets/images/flag-ru.png"></a></li>
+    </ul>
+  </div>
+</nav>
+<div class="wip">
+  <img class="wip-gif" id="wip-img" src="" alt="">
+  <h1>Coming Soon</h1>
+</div>
+<script>
+var gifs = ['3-sansPapyrusSnow-u5aplAAT0Wq7sEiE.gif','8-snowForPapyrus-u5aplAAT0Wq7sEiE.gif','alphysMettaton-i1pyKBJ9BRgjP1OS.gif','angel-flip.gif','balloon-dog.gif','berdlyfinal_2x.gif','bush1_5x-eeMTLJQOnKGc1Z9G.gif','bush2_5x-eeMTLJQOnKGc1Z9G.gif','caked_up_coody-tOYeHM9diwN8AaSH.gif','camp_fire5_en-i1pyKBJ9BRgjP1OS.gif','ch5-burgerpants-point-u5aplAAT0Wq7sEiE.gif','climbing cup-HxethfSyBXRFIe3c.gif','dw_campfire-i1pyKBJ9BRgjP1OS.gif','jumping-tOYeHM9diwN8AaSH.gif','lancer-spin-big.gif','mike_Bashful-wV0q1DttP02jNlVw.gif','napstablook_5x-eeMTLJQOnKGc1Z9G.gif','noelle_susie-gHUAkPoEFapSBlOD.gif','papyrus-worm.gif','queen_shimmying-tOYeHM9diwN8AaSH.gif','ralsei-lancer.gif','ralsei_5x-eeMTLJQOnKGc1Z9G.gif','ralsei_bow-gHUAkPoEFapSBlOD.gif','scuba_brothers-i1pyKBJ9BRgjP1OS.gif','shadowguys_wavingmoney-tOYeHM9diwN8AaSH.gif','Sisters_Laugh-wV0q1DttP02jNlVw.gif','slice_lit_4x-HxethfSyBXRFIe3c.gif','sneaking.gif','spamdance.gif','spam_cooking-i1pyKBJ9BRgjP1OS.gif','susie_eat_Melon.gif','toriel-raking-leaves.gif','toriel_birthdaycake_9_Candles_4x-HxethfSyBXRFIe3c.gif','towel_walk-i1pyKBJ9BRgjP1OS.gif','tree.gif','undyne_Lookout_Window.gif','weather.gif'];
+var img = document.getElementById('wip-img');
+function pick() { img.src = '../assets/images/wip-gifs/' + gifs[Math.floor(Math.random()*gifs.length)]; }
+pick(); setInterval(pick, 5000);
+</script>
+</body>
+</html>

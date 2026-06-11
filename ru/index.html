@@ -1,0 +1,98 @@
+﻿<html lang="ru" data-darkreader-proxy-injected="true"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:locale" content="en_US">
+    <title>Главная DELTARUNE</title>
+    <link rel="stylesheet" href="_bridgetown/static/index.IWDZ4TEV.css">
+    <link rel="preload" href="assets/fonts/8bitOperatorPlus-Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="assets/css/main_en.css">
+    <script src="_bridgetown/static/index.3GZ7M44I.js" defer=""></script>
+    <style>
+      body { margin: 0; min-height: 100vh; background: #000; color: #fff; }
+      a { color: inherit; text-decoration: none; }
+      #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
+      #regions img { display: block; width: 36px; height: 24px; object-fit: cover; }
+      @media (max-width: 720px) { #regions img { width: 32px; height: 22px; } }
+    </style>
+  </head>
+  <body class="default bg-black" data-controller="scroll" style="">
+
+<nav class="site-nav w-full z-40 bg-nav-blue">
+  <div class="relative w-full">
+    <ul class="flex items-center justify-between w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[132px] md:pr-[132px] pl-2 md:pl-0 font-8bit uppercase">
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="index.html">ГЛАВНАЯ</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://tobyfox.bandcamp.com/" target="_blank" rel="noopener noreferrer">САУНДТРЕК</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://www.fangamer.com/collections/deltarune" target="_blank" rel="noopener noreferrer">МЕРЧ</a></li>
+      <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="team/index.html">КОМАНДА</a></li>
+    </ul>
+    
+    <ul id="regions">
+      <li><a href="/eng/index.html" class="transition-opacity hover:opacity-80 hover:duration-0 duration-150"><img alt="US English Version" src="assets/images/flag-us.png"></a></li>
+      <li><a href="/jp/index.html" class="transition-opacity hover:opacity-80 hover:duration-0 duration-150"><img alt="JP Japanese Version" src="assets/images/flag-jp.png"></a></li>
+      <li><a href="/ru/index.html" class="transition-opacity hover:opacity-80 hover:duration-0 duration-150"><img alt="RU Russian Version" src="assets/images/flag-ru.png"></a></li>
+    </ul>
+  </div>
+</nav>
+    <main style="">
+      <div id="home_container" class="flex flex-col gap-16 pb-16 overflow-visible" data-controller="scroll">
+<section id="ch5_intro" class="relative" data-controller="ch5stars">
+    <div id="ch5_cover" class="absolute w-full h-full cursor-pointer hidden motion-safe:block z-50 !hidden" data-ch5stars-target="cover" data-action="click-&gt;ch5stars#skipIntro" aria-hidden="true"></div>
+    <div class="relative flex flex-col items-center gap-4 pb-16 overflow-hidden [&amp;::after]:content-[''] [&amp;::after]:absolute [&amp;::after]:inset-0 [&amp;::after]:shadow-[inset_0_-80px_40px_-20px_rgba(0,0,0,1)] [&amp;::after]:pointer-events-none [&amp;::after]:z-35">
+      <div id="ch5_logo_container" class="relative max-w-4xl w-full">
+        <video class="absolute max-w-4xl w-[80%] left-[10%] lg:left-0 lg:w-full mx-auto opacity-0 motion-safe:animate-ch5-logo z-10 object-contain" autoplay="" playsinline="" muted="">
+          <source src="assets/images/logo-ch5.mp4" type="video/mp4">
+        </video>
+        <img src="assets/images/logo-ch5.png" alt="DELTARUNE" class="max-w-4xl w-[80%] lg:w-full mx-auto object-contain" width="1280" height="426">
+        <span class="absolute bottom-[10%] md:bottom-[15%] z-30 left-0 right-0 text-white text-2xl md:text-5xl font-8bit text-center text-shadow-[1px_1px_0_#203288] motion-safe:opacity-0 motion-safe:animate-fade-in-top skippable" style="animation-delay: 1.75s; font-family: &quot;8bitOperator-JVE&quot;, monospace !important; letter-spacing: 2px !important; text-align: center;">Глава 5</span>
+      </div>
+      <div id="ch5_countdown" data-controller="countdown" data-countdown-source-value="assets/data/hey-is-ch5-released-yet.txt" class="flex flex-col gap-4 px-32 z-30">
+        <h3 class="highlight-yellow text-lg md:text-3xl font-pixel text-center mb-2 min-h-10 motion-safe:opacity-0 motion-safe:animate-fade-in skippable" style="animation-delay: 3s" data-countdown-target="date"></h3>
+        <h3 class="text-deltarune-gray text-sm md:text-base font-pixel text-center mb-4 min-h-10 motion-safe:opacity-0 motion-safe:animate-fade-in skippable" style="animation-delay: 3.25s" data-countdown-target="info"></h3>
+        <h3 class="text-deltarune-gray text-lg md:text-5xl font-pixel text-center mb-12 h-16 motion-safe:opacity-0 motion-safe:animate-fade-in skippable" style="animation-delay: 3.5s" data-countdown-target="countdown"></h3>
+      </div>
+      <div id="ch5_trailer" class="container mx-auto max-w-2xl px-4 pb-12 z-30">
+        <div class="border border-2 border-deltarune-blue aspect-video w-full flex items-center justify-center bg-black motion-safe:opacity-0 motion-safe:animate-fade-in transition-colors hover:border-white skippable" style="animation-delay: 4s">
+          <video controls="" preload="metadata" style="width: 100%; height: 100%; display: block; background: rgb(0, 0, 0);">
+            <source src="../assets/video/ch5-trailer-eng.mp4" type="video/mp4">
+          </video>
+        </div>
+        
+        <p class="w-full text-center px-4 mt-6 font-pixel-regular text-xs text-white/75 motion-safe:opacity-0 motion-safe:animate-fade-in transition-colors hover:border-white skippable" style="animation-delay: 4.25s"><a target="_blank" class="underline transition-opacity opacity-100 hover:opacity-90" style="color: rgb(249, 255, 16); --darkreader-inline-color: var(--darkreader-text-f9ff10, #faff25);" href="https://www.youtube.com/watch?v=n5y22LUfetA">ССЫЛКА НА YOUTUBE</a></p>
+        
+      </div>
+      <div id="ch5_flowers_left" class="absolute top-0 md:-top-12 w-[167px] md:w-[334px] lg:w-[501px] xl:w-[668px] left-0 pointer-events-none z-20 motion-safe:opacity-0 motion-safe:animate-slide-from-left motion-reduce:-translate-x-1/4 skippable" style="animation-delay: 2s">
+        <img src="assets/images/ch5-flowers.png" class="absolute image-pixel w-full" aria-hidden="true" alt="Flowers">
+        <div class="relative w-[167px] md:w-[334px] lg:w-[501px] xl:w-[668px] h-[800px] opacity-0 animate-fade-in motion-reduce:hidden skippable" style="animation-delay: 3s" data-ch5stars-target="containerLeft"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-5.png" alt="Star" aria-hidden="true" style="top: 14%; right: 16%; animation-delay: -1s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-5.png" alt="Star" aria-hidden="true" style="top: 34%; right: 13%; animation-delay: -2s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-1.png" alt="Star" aria-hidden="true" style="top: 39%; right: 24%; animation-delay: -0.3333333333333333s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 41%; right: 28%; animation-delay: -3.3333333333333335s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 53%; right: 37%; animation-delay: -1.6666666666666667s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-1.png" alt="Star" aria-hidden="true" style="top: 68%; right: 13%; animation-delay: -1.6666666666666667s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-5.png" alt="Star" aria-hidden="true" style="top: 72%; right: 30%; animation-delay: -2.3333333333333335s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 86%; right: 35%; animation-delay: -1.3333333333333333s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-6.png" alt="Star" aria-hidden="true" style="top: 97%; right: 24%; animation-delay: -3.3333333333333335s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 100%; right: 14%; animation-delay: -0s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-3.png" alt="Star" aria-hidden="true" style="top: 111%; right: 29%; animation-delay: -1s"></div>
+      </div>
+      <div id="ch5_flowers_right" class="absolute top-0 md:-top-12 w-[167px] md:w-[334px] lg:w-[501px] xl:w-[668px] right-0 pointer-events-none z-20 motion-safe:opacity-0 motion-safe:animate-slide-from-right motion-reduce:-scale-x-100 motion-reduce:translate-x-1/4 skippable" style="animation-delay: 2s">
+        <img src="assets/images/ch5-flowers.png" class="absolute image-pixel w-full" aria-hidden="true" alt="Flowers">
+        <div class="relative w-[167px] md:w-[334px] lg:w-[501px] xl:w-[668px] h-[800px] opacity-0 animate-fade-in motion-reduce:hidden skippable" style="animation-delay: 3s" data-ch5stars-target="containerRight"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-1.png" alt="Star" aria-hidden="true" style="top: 16%; right: 35%; animation-delay: -2.6666666666666665s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-1.png" alt="Star" aria-hidden="true" style="top: 33%; right: 29%; animation-delay: -0.6666666666666666s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-6.png" alt="Star" aria-hidden="true" style="top: 34%; right: 28%; animation-delay: -0.6666666666666666s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-6.png" alt="Star" aria-hidden="true" style="top: 50%; right: 32%; animation-delay: -3.3333333333333335s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 62%; right: 27%; animation-delay: -2.3333333333333335s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-6.png" alt="Star" aria-hidden="true" style="top: 71%; right: 25%; animation-delay: -1s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-5.png" alt="Star" aria-hidden="true" style="top: 72%; right: 28%; animation-delay: -1s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-7.png" alt="Star" aria-hidden="true" style="top: 81%; right: 39%; animation-delay: -0.3333333333333333s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-6.png" alt="Star" aria-hidden="true" style="top: 103%; right: 21%; animation-delay: -2s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-4.png" alt="Star" aria-hidden="true" style="top: 102%; right: 34%; animation-delay: -0s"><img class="absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150" src="assets/images/ch5-star-3.png" alt="Star" aria-hidden="true" style="top: 112%; right: 19%; animation-delay: -2.3333333333333335s"></div>
+      </div>
+    </div>
+  </section>
+  <section id="news" class="container mx-auto max-w-2xl text-center flex flex-col gap-4 px-4">
+    <h2 class="text-white text-2xl uppercase font-pixel">Новости и обновления</h2>
+    <div class="flex flex-col gap-4 max-w-lg mx-auto">
+      <a class="flex flex-row gap-4 items-center text-left bg-white/10 hover:bg-white/20 motion-safe:transition-all duration-150 hover:duration-0 border-2 border-white rounded-lg p-4 hover:border-deltarune-yellow" href="newsletters/index.html">
+        <img src="assets/images/thumb-archive.png" alt="Архив рассылок" class="flex-shrink-0 w-24 h-24 object-contain rounded" loading="lazy" aria-hidden="true">
+        <div class="flex flex-col">
+          <p class="text-sm font-pixel mb-1 highlight-yellow">25 дек 2022 -</p>
+          <h5 class="text-xl font-pixel highlight-white">Архив рассылок</h5>
+        </div>
+      </a>
+    </div>
+  </section>
+  <footer style="max-width: 600px; margin: 80px auto 40px; padding: 0px 16px; text-align: center; color: rgb(153, 153, 153); font-size: 13px; line-height: 1.6;">
+    <p>DELTARUNE © Toby Fox 2018-2026. Все права защищены.</p>
+    <p style="margin-top:12px;">Steam и логотип Steam являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation в США и/или других странах.</p>
+    <p style="margin-top:12px;">"PlayStation" и логотип семейства "PS" являются зарегистрированными товарными знаками, а "PS4" и "PS5" — товарными знаками Sony Interactive Entertainment LLC.</p>
+    <p style="margin-top:12px;">Nintendo Switch™ является товарным знаком Nintendo.</p>
+    <div style="margin-top:24px;"><img src="../assets/images/esrb-t.png" alt="ESRB T for Teen rating" style="height:100px; display:inline-block;"></div>
+    <p style="margin-top:24px;"><a style="color: rgb(153, 153, 153); text-decoration: underline;" href="https://www.fangamer.com/pages/privacy">Privacy Policy</a></p>
+  </footer>
+      </div>
+    </main>
+  
+</body>
+</html>
