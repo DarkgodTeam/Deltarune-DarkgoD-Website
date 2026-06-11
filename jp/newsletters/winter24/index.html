@@ -40,8 +40,13 @@
       main.container p, main.blurb p { text-align: left; }
       main.container ul, main.blurb ul, main.container ol, main.blurb ol { text-align: left; }
       #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
-      #regions img { display: block; width: 36px; height: 24px; object-fit: cover; }
-      @media (max-width: 720px) { #regions img { width: 32px; height: 22px; } }
+      #regions img { display: block !important; width: 36px !important; height: 24px !important; object-fit: cover !important; }
+      @media (max-width: 720px) {
+      #regions img { width: 14px !important; height: 10px !important; }
+      #regions { top: 17px; right: 4px; gap: 2px; }
+      .site-nav ul:first-child { justify-content: flex-start !important; gap: 0px !important; padding-left: 2px !important; padding-right: 48px !important; }
+      .site-nav ul:first-child a { padding: 0 3px !important; font-size: 8px !important; }
+    }
       .blurb, .image-full {
         display: block !important;
         margin-bottom: 30px !important;
@@ -118,7 +123,7 @@
 
 <nav class="site-nav w-full z-40 bg-nav-blue">
   <div class="relative w-full">
-    <ul class="flex items-center justify-between w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[132px] md:pr-[132px] pl-2 md:pl-0 font-8bit uppercase">
+    <ul class="flex items-center w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[96px] md:pr-0 pl-2 md:pl-0 font-8bit uppercase">
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="../../index.html">HOME</a></li>
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://tobyfoxjp.bandcamp.com/" target="_blank" rel="noopener noreferrer">SOUNDTRACK</a></li>
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://www.fangamer.jp/collections/deltarune" target="_blank" rel="noopener noreferrer">MERCH</a></li>

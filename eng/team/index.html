@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -11,7 +11,7 @@
     body { margin: 0; min-height: 100vh; background: #000; color: #fff; }
     .site-nav a, .site-nav .font-8bit a, .site-nav>div>ul:first-child { font-family: '8bitOperatorPlus-Bold', monospace !important; }
     #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
-    #regions img { display: block; width: 36px; height: 24px; object-fit: cover; }
+    #regions img { display: block !important; width: 36px !important; height: 24px !important; object-fit: cover !important; }
     .wip { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 48px); padding: 40px 20px; }
     .wip-gif { max-width: 400px; max-height: 400px; image-rendering: pixelated; margin-bottom: 40px; }
     .wip h1 { color: #F9FF10; font-family: '8bitOperatorPlus-Bold', monospace; font-size: 2.5rem; text-align: center; }
@@ -20,7 +20,7 @@
 <body>
 <nav class="site-nav w-full z-40 bg-nav-blue">
   <div class="relative w-full">
-    <ul class="flex items-center justify-between w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[132px] md:pr-[132px] pl-2 md:pl-0 font-8bit uppercase">
+    <ul class="flex items-center w-full max-w-2xl mx-auto gap-3 md:gap-6 h-12 pr-[96px] md:pr-0 pl-2 md:pl-0 font-8bit uppercase">
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="../index.html" >HOME</a></li>
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://tobyfox.bandcamp.com/" target="_blank">SOUNDTRACK</a></li>
       <li><a class="px-2 transition-opacity text-white hover:opacity-80 hover:duration-0 duration-150 inline-block text-center text-xs sm:text-sm md:text-lg drop-shadow-[2px_2px_0px_rgba(0,0,0)]" href="https://www.fangamer.com/collections/deltarune" target="_blank">MERCH</a></li>

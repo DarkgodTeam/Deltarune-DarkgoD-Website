@@ -395,9 +395,9 @@ footer .privacy a { color: #878787; font-size: 10px !important; text-decoration:
 /* === Mobile fixes === */
 .site-nav ul:first-child { justify-content: flex-start !important; }
 @media screen and (max-width: 720px) {
-  .site-nav ul:first-child { justify-content: flex-start !important; gap: 0px !important; padding-left: 4px !important; padding-right: 66px !important; }
-  .site-nav ul:first-child a { font-size: 10px !important; padding: 0 4px !important; }
-  #regions { top: 15px !important; right: 6px !important; gap: 3px !important; }
-  #regions img { width: 20px !important; height: 14px !important; }
+  .site-nav ul:first-child { justify-content: flex-start !important; gap: 0px !important; padding-left: 2px !important; padding-right: 48px !important; }
+  .site-nav ul:first-child a { font-size: 8px !important; padding: 0 3px !important; }
+  #regions { top: 17px !important; right: 4px !important; gap: 2px !important; }
+  #regions img { width: 14px !important; height: 10px !important; }
   .site-nav { height: 48px; overflow: visible; }
 }
