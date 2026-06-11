@@ -12,6 +12,12 @@
     .site-nav a, .site-nav .font-8bit a, .site-nav>div>ul:first-child { font-family: '8bitOperatorPlus-Bold', monospace !important; }
     #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
     #regions img { display: block !important; width: 36px !important; height: 24px !important; object-fit: cover !important; }
+    @media (max-width: 720px) {
+      #regions img { width: 14px !important; height: 10px !important; }
+      #regions { top: 17px !important; right: 4px !important; gap: 2px !important; }
+      .site-nav ul:first-child { justify-content: flex-start !important; gap: 0px !important; padding-left: 2px !important; padding-right: 48px !important; }
+      .site-nav ul:first-child a { padding: 0 3px !important; font-size: 8px !important; }
+    }
     .wip { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 48px); padding: 40px 20px; }
     .wip-gif { max-width: 400px; max-height: 400px; image-rendering: pixelated; margin-bottom: 40px; }
     .wip h1 { color: #F9FF10; font-family: '8bitOperatorPlus-Bold', monospace; font-size: 2.5rem; text-align: center; }

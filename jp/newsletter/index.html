@@ -12,6 +12,12 @@
       a { color: inherit; text-decoration: none; }
       #regions { position: absolute !important; top: 12px; right: 12px; z-index: 1000; display: flex; gap: 8px; }
       #regions img { display: block !important; width: 36px !important; height: 24px !important; object-fit: cover !important; }
+    @media (max-width: 720px) {
+      #regions img { width: 14px !important; height: 10px !important; }
+      #regions { top: 17px !important; right: 4px !important; gap: 2px !important; }
+      .site-nav ul:first-child { justify-content: flex-start !important; gap: 0px !important; padding-left: 2px !important; padding-right: 48px !important; }
+      .site-nav ul:first-child a { padding: 0 3px !important; font-size: 8px !important; }
+    }
       .signup-shell { position: relative; left: 50%; transform: translateX(-50%); width: min(540px, calc(100% - 32px)); padding: 48px 0 64px; text-align: center; }
       .signup-shell iframe { width: 100%; height: 1250px; border: 0; background: #000; }
     </style>
