@@ -14,13 +14,13 @@ body { background-color: black; margin-bottom: 60px; }
 
 h1, h2, h3, h4, h5, h6, strong { font-weight: normal; margin: 0; }
 
-h2 { font-size: 36px !important; margin-top: 5px; }
+.main h2, #update h2 { font-size: 36px !important; margin-top: 5px; }
 
-h3 { font-size: 22px !important; letter-spacing: -0.7; margin-bottom: 10px; }
+.main h3, #update h3 { font-size: 22px !important; letter-spacing: -0.7; margin-bottom: 10px; }
 
-h4 { font-size: 16px !important; letter-spacing: 3; margin-top: 20px; margin-bottom: 20px; }
+.main h4, #update h4 { font-size: 16px !important; letter-spacing: 3; margin-top: 20px; margin-bottom: 20px; }
 
-h6 { font-size: 12px !important; margin-bottom: 5px; letter-spacing: -0.5; }
+.main h6, #update h6 { font-size: 12px !important; margin-bottom: 5px; letter-spacing: -0.5; }
 
 .mt { margin-top: 2rem !important; }
 
