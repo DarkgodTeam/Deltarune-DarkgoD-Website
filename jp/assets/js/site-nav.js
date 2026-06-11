@@ -22,10 +22,10 @@
         btn.href = path.replace(/\/interviews\/[^/]+\/.*$/, '/newsletters/index.html');
       }
 
-      var isMobile = window.innerWidth <= 768;
+      var isMobile = window.matchMedia('(max-width: 768px)').matches;
       if (isMobile) {
-        // Mobile: horizontal bar at top, below nav
-        btn.style.cssText = 'position:fixed;top:48px;left:0;right:0;z-index:998;background:#000;color:#F9FF10;border-bottom:2px solid #F9FF10;padding:8px 16px;font-family:"8bitOperatorPlus-Bold",monospace;font-size:12px;text-decoration:none;letter-spacing:1px;text-align:center;opacity:0.95;';
+        // Mobile: small button at bottom-right corner, out of the way
+        btn.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:998;background:#000;color:#F9FF10;border:2px solid #F9FF10;padding:8px 12px;font-family:"8bitOperatorPlus-Bold",monospace;font-size:11px;text-decoration:none;letter-spacing:0.5px;opacity:0.9;border-radius:4px;';
       } else {
         // Desktop: vertical button on left side
         var transform = lang === 'ja' ? 'translateY(-50%)' : 'translateY(-50%) rotate(180deg)';
@@ -34,11 +34,6 @@
         btn.addEventListener('mouseleave', function() { btn.style.opacity = '0.85'; });
       }
       document.body.appendChild(btn);
-
-      // Adjust body padding on mobile to avoid overlap
-      if (isMobile) {
-        document.body.style.paddingTop = '36px';
-      }
     }
   });
 })();

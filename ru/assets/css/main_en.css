@@ -391,3 +391,12 @@ footer a { text-decoration: underline; color: white; }
 footer a:hover { color: #ccc; }
 
 footer .privacy a { color: #878787; font-size: 10px !important; text-decoration: none; }
+
+/* === Mobile fixes === */
+@media screen and (max-width: 720px) {
+  .site-nav ul:first-child { padding-right: 80px !important; }
+  .site-nav ul:first-child a { font-size: 10px !important; padding: 0 3px !important; }
+  #regions { top: 14px !important; right: 6px !important; gap: 4px !important; }
+  #regions img { width: 24px !important; height: 16px !important; }
+  .site-nav { height: 48px; overflow: visible; }
+}
