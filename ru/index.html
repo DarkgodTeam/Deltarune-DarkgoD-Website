@@ -42,7 +42,6 @@
   </div>
 </nav>
     <main>
-
       <div id="home_container" class="flex flex-col gap-16 pb-16 overflow-visible" data-controller="scroll">
 <section id="ch5_intro" class="relative" data-controller="ch5stars">
     <div id="ch5_cover" class="absolute w-full h-full cursor-pointer hidden motion-safe:block z-50 !hidden" data-ch5stars-target="cover" data-action="click-&gt;ch5stars#skipIntro" aria-hidden="true"></div>
@@ -91,17 +90,31 @@
       </a>
     </div>
   </section>
-  <footer style="max-width: 600px; margin: 80px auto 40px; padding: 0px 16px; text-align: center; line-height: 1.6;">
-    <p style="color: rgb(153, 153, 153); font-size: 13px;">DELTARUNE © Toby Fox 2018-2026. Все права защищены.</p>
-    <p style="color: rgb(153, 153, 153); font-size: 13px; margin-top: 12px;">Steam и логотип Steam являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation в США и/или других странах.</p>
-    <p style="margin-top: 12px;"><font color="#999999"><span style="font-size: 13px;">PlayStation и логотип семейства PS являются зарегистрированными товарными знаками, а PS4 и PS5</span></font><span style="color: rgb(153, 153, 153); font-size: 13px;">&nbsp;— товарными знаками Sony Interactive Entertainment LLC.</span></p>
-    <p style="color: rgb(153, 153, 153); font-size: 13px; margin-top: 12px;">Nintendo Switch™ является товарным знаком Nintendo.</p>
-    <div style="color: rgb(153, 153, 153); font-size: 13px; margin-top: 24px;"><img src="../assets/images/esrb-t.png" alt="ESRB T for Teen rating" style="height:100px; display:inline-block;"></div>
-    <p style="color: rgb(153, 153, 153); font-size: 13px; margin-top: 24px;"><a style="color: rgb(153, 153, 153); text-decoration: underline;" href="https://www.fangamer.com/pages/privacy">Privacy Policy</a></p>
-  </footer>
-      </div>
+    <footer class="relative w-full pt-12 pb-4 md:pb-6 px-4 bg-black text-center">
+  <div class="container mx-auto text-center flex flex-col items-center justify-center gap-2">
+    <span class="block highlight-yellow font-sans px-4 max-w-lg text-center text-xs"><b>This site is not affiliated with, endorsed by, or connected to Toby Fox, Fangamer, or the official DELTARUNE team. The content presented here is a fan translation and does not claim to be accurate or official.</b></span>
+    <span class="block highlight-yellow font-sans px-4 max-w-lg text-center text-xs"><b>DarkgoD Team operates solely with publicly available information and does not seek any financial gain from this site.</b></span>
+    <span class="block highlight-yellow font-sans px-4 max-w-lg text-center text-xs"><b>For any official information, please visit <u><a href="https://deltarune.com/" target="_blank" style="all: unset; cursor: pointer;" class="hover:opacity-90 !text-xs">deltarune.com</a></u>.</b></span>
+    <span class="block">  </span>
+    <span class="block">  </span>
+    <span class="block text-deltarune-gray font-sans px-4 max-w-lg text-center text-xs">DELTARUNE © Toby Fox 2018-2026. All rights reserved.</span>
+    <span class="block text-deltarune-gray font-sans px-4 max-w-lg text-center text-xs">Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.</span>
+    <span class="block text-deltarune-gray font-sans px-4 max-w-lg text-center text-xs">"PlayStation" and the "PS" Family logo are registered trademarks and "PS4" and "PS5" is a trademark of Sony Interactive Entertainment LLC.</span>
     
-    </main>
+    <span class="block text-deltarune-gray font-sans px-4 max-w-lg text-center text-xs">Nintendo Switch™ is a trademark of Nintendo.</span>
+    <div class="block border-2 border-white bg-white flex flex-row items-center h-20">
+      <img src="/assets/images/esrb-t.png" alt="ESRB T for Teen rating" class="shrink-0 h-full" />
+      <div class="px-2 border-y-2 border-r-2 border-black w-full h-full flex items-center">
+        <p class="text-black text-xs">Language<br/>Suggestive Themes<br/>Mild Blood<br/>Fantasy Violence</p>
+      </div>
+    </div>
+    
+    <span class="block text-deltarune-gray font-sans px-4 max-w-lg text-center text-xs"><a href="https://www.fangamer.com/pages/privacy" target="_blank" class="text-deltarune-gray underline hover:opacity-90 !text-xs">Privacy Policy</a></span>
+  </div>
+</footer>
+
+    <script defer>if(!window.plausibleloaded){window.plausibleloaded=true;var onloadfunc = function() {!function(){"use strict";var t=window.location,e=window.document;function a(t,e){t&&console.warn("Ignoring Event: "+t),e&&e.callback&&e.callback()}function n(n,i){if(/^localhost$|^127(\.[0-9]+){0,2}\.[0-9]+$|^\[::1?\]$/.test(t.hostname)||"file:"===t.protocol)return a("localhost",i);if(window._phantom||window.__nightmare||window.navigator.webdriver||window.Cypress)return a(null,i);try{if("true"===window.localStorage.plausible_ignore)return a("localStorage flag",i)}catch(r){}var l={},o=(l.n=n,l.u=t.href,l.d="deltarune.com",l.r=e.referrer||null,i&&i.meta&&(l.m=JSON.stringify(i.meta)),i&&i.props&&(l.p=i.props),new XMLHttpRequest);o.open("POST","https://plausible.fangamer.eu/api/event",!0),o.setRequestHeader("Content-Type","text/plain"),o.send(JSON.stringify(l)),o.onreadystatechange=function(){4===o.readyState&&i&&i.callback&&i.callback()}}e.currentScript;var i=window.plausible&&window.plausible.q||[];window.plausible=n;for(var r,l=0;l<i.length;l++)n.apply(this,i[l]);function o(){r!==t.pathname&&(r=t.pathname,n("pageview"))};o();}();}; onloadfunc();}</script>
   
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"377f50f2716b474ea394c9bbd3aaef87","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
